@@ -162,7 +162,7 @@ Three explicit modes with different outputs:
    In Mode B the serializer uses ``quote_attr_values="always"`` for stable diffs.
 
 Parameters 
-====================
+----------
 
 +-------------------------------+--------------------------------------------------------------------------+
 | **Parameter**                 | **Description**                                                          |
@@ -214,14 +214,14 @@ Parameters
 
 
 Parameter semantics
-===================
+-------------------
 
 - **None** → flag **unset**. If all are None ⇒ **Mode A**.  
 - **True** → request removal/operation ⇒ **Mode B**.  
 - **False** → request preservation ⇒ **Mode C** (text output that preserves those groups; ``remove_comments=False`` and ``remove_doctype=False`` also preserve them).
 
 Tag groups reference
-====================
+--------------------
 
 .. list-table::
    :header-rows: 1
@@ -495,7 +495,7 @@ visible whitespace unless explicitly requested.
 
 
 Parameters
-==========
+----------
 
 - ``html`` (str): Raw HTML input.
 - ``indent`` (int, default ``2``): Spaces per indentation level.

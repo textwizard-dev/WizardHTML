@@ -1,10 +1,10 @@
 exclude tests/*
 exclude assets/*
 exclude README.md
-include textwizard/utils/tw_html_parser/*.pyx
-exclude textwizard/utils/tw_html_parser/generate_gperf.py
+include wizardhtml/utils/tw_html_parser/*.pyx
+exclude wizardhtml/utils/tw_html_parser/generate_gperf.py
 
-include textwizard/utils/tw_html_parser/*.pxd
-include textwizard/utils/tw_html_parser/*.c
-include textwizard/utils/tw_html_parser/*.h
+include wizardhtml/utils/tw_html_parser/*.pxd
+include wizardhtml/utils/tw_html_parser/*.c
+include wizardhtml/utils/tw_html_parser/*.h
 global-exclude *.pyd *.so

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wizardhtml"
-version = "0.1.0"
+version = "1.0.0"
 description = "WHATWG-compliant HTML5 toolkit: DFA tokenizer, spec-guided tree builder, DOM, configurable serializer, high-level cleaner, pretty-printer, and HTML to Markdown."
 license = { file = "LICENSE" }
 

@@ -1,14 +1,14 @@
 from datetime import date
 
-project = "wizardhtml"
+project = "WizardHTML"
 author = "Mattia Rubino"
-release = "0.1.0"
+release = "1.0.0"
 copyright = f"{date.today().year} {author}"
 
 pypi_slug = "wizardhtml"
 pypi_url  = f"https://pypi.org/project/{pypi_slug}/"
 
-github_user = "wizardhtml-dev"
+github_user = "textwizard-dev"
 github_repo = "wizardhtml"
 has_github  = True
 github_url  = f"https://github.com/{github_user}/{github_repo}"
@@ -17,10 +17,7 @@ github_url_subst = github_url or "#"
 
 
 autodoc_mock_imports = [
-    "fitz", "PyMuPDF", "pytesseract",
-    "spacy", "stanza", "spacy_stanza",
-    "marisa_trie", "zstandard", "pyahocorasick", "platformdirs",
-    "azure", "azure.ai.documentintelligence", "azure.core",
+    "marisa_trie", "pyahocorasick"
 ]
 
 extensions = [
