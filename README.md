@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/texwhizard-dev/wizardhtml/main/asset/WizardHTML%20Banner.png"
+<img src="https://raw.githubusercontent.com/textwizard-dev/wizardhtml/main/asset/WizardHTML%20Banner.png"
      alt="WizardHTML Banner" width="800" height="300">
 
 ---
